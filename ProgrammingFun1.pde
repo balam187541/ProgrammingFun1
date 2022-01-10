@@ -1,5 +1,3 @@
-public class lines
-{
   int c = 0;
   void setup()
   {
@@ -19,4 +17,3 @@ public class lines
     if (key == ' ');
     c = (int)random(255);
   }
-}
