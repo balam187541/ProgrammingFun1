@@ -6,7 +6,6 @@
 void setup()
 {
   background(0);
-  size(400, 400);
 }
 
 void keyPressed() {
