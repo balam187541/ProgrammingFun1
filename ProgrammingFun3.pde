@@ -1,17 +1,13 @@
-/** Copy and Paste the code here 
-  * If your code contains more than one class, 
-  * be sure to paste the second class at the end 
-  */
-
 void setup()
 {
   background(0);
+  size(200,200);
 }
 
 void keyPressed() {
   fill(random(255), random(255), random(255));
-  textSize(random(20, 200));
-  text(key, random(300), random(100,400));
+  textSize(random(20, 100));
+  text(key, random(width), random(height));
 }
 void draw()
 {
